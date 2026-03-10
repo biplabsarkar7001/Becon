@@ -1,3 +1,4 @@
+/*Global*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 @font-face {
@@ -125,63 +126,10 @@ a {
 .active {
   color: var(--btn-color) !important;
 }
+
 /*Navbar Section End*/
 
-/* 576 */
-@media screen and (max-width: 576px) {
-  /* Header Section */
-  .offcanvas {
-    width: 70%;
-  }
-}
-
-/*Navbar*/
- @media screen and (max-width: 992px) {
-  .navbar-toggler {
-    margin-left: auto;
-    border: none;
-  }
-
-  .offcanvas {
-    flex-direction: column;
-  }
-
-  .offcanvas-header {
-    margin-left: auto;
-  }
-
-  .offcanvas-body {
-    margin: 0 !important;
-  }
-
-  .offcanvas-body ul {
-    text-align: center;
-  }
-
-  .nav-item {
-    margin: 0 auto !important;
-  }
-
-  .nav-btn {
-    margin-top: 18px;
-  }
-
-  .offcanvas-end:focus .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none !important;
-    border: none !important;
-  }
-
-  .navbar-toggler-icon {
-    display: block;
-  }
-}
-
-/* 
-=====================
-BANNER SECTION
-=====================
-*/
+/*Banner Section Start*/
 .banner-sec {
   padding: 15px 0 0;
   position: relative;
@@ -249,91 +197,9 @@ BANNER SECTION
   display: block;
   object-fit: cover;
 }
+/*Banner Section End*/
 
-/*
-=============================
- BANNER SECTION RESPONSIVE
-=============================
- */
-/* 1200 */
-@media screen and (max-width: 1200px) {
-  .banner-cntn .title-1 {
-    font-size: 40px;
-  }
-
-  .banner-cntn .nav-btn {
-    padding: 15px 19px;
-  }
-
-  .banner-pic-wrpr {
-    margin: 28px auto 0;
-  }
-}
-
-/* 992 */
-@media screen and (max-width: 992px) {
-  .navbar-brand {
-    width: 130px;
-  }
-
-  .banner-cntn p {
-    font-size: 12px;
-  }
-
-  .banner-cntn .nav-btn span {
-    font-size: 14px;
-  }
-}
-
-/* 768 */
-@media screen and (max-width: 768px) {
-  .banner-cntn .title-1 {
-    font-size: 30px;
-  }
-
-  .banner-cntn p {
-    margin: 15px auto;
-  }
-
-  .banner-cntn .nav-btn {
-    padding: 11px 15px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner-cntn .title-1 {
-    font-size: 40px;
-  }
-
-  .banner-cntn p {
-    font-size: 10px;
-  }
-
-  .banner-cntn .nav-btn {
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner-cntn .nav-btn span {
-    font-size: 10px;
-  }
-
-  .banner-cntn .nav-btn {
-    padding: 8px;
-  }
-
-  .banner-cntn .nav-btn span {
-    font-size: 8px;
-  }
-}
-
-/* 
-=======================
-PROPERTY SECTION
-=======================
-*/
-
+/*Property Section Start*/
 .property-sec {
   padding: 80px 0;
 }
@@ -382,118 +248,10 @@ PROPERTY SECTION
   line-height: calc(24 / 16);
   color: white;
 }
-
-/* 
-===========================
-PROPERTY SECTION RESPONSIVE
-===========================
-*/
-@media screen and (max-width: 1200px) {
-  .prop-left-cntn .title-2 {
-    font-size: 45px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .prop-left-cntn .title-2 {
-    text-align: center;
-  }
-
-    .prop-left {
-    margin: 40px auto 0;
-  }
-
-  .prop-right {
-    margin: 40px auto;
-  }
-
-  .property-sec p {
-    margin: 0 auto 50px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .property-sec .nav-btn {
-    padding: 15px 25px;
-    margin: 0 auto;
-  }
-
-}
-@media screen and (max-width: 768px) {
-  .prop-left-cntn .title-2 {
-    font-size: 30px;
-  }
-
-  .prop-left {
-    max-width: 400px;
-  }
-}
-
-@media screen and (max-width: 576px) {
+/*Property Section End*/
 
 
-  .prop-left-cntn .title1 {
-    font-size: 20px;
-  }
-
-  .property-sec .nav-btn span {
-    font-size: 12px;
-  }
-
-  .prop-left {
-    margin: 30px auto 0;
-  }
-
-  .prop-right {
-    overflow: hidden;
-  }
-
-  .property-sec p {
-    margin: 0 auto 30px;
-    font-size: 10px;
-    text-align: center;
-  }
-
-  .property-sec .nav-btn {
-    padding: 8px 12px;
-    margin: 0 auto;
-  }
-
-}
-@media screen and (max-width: 425px) {
-  /* Property Section */
-  .prop-left-cntn .title-2 {
-    font-size: 30px;
-  }
-
-  .prop-left,
-  .prop-right {
-    max-width: 240px;
-  }
-
-  .prop-right {
-    margin: 17px auto;
-  }
-
-  .property-sec p {
-    margin: 0 auto 15px;
-    font-size: 8px;
-  }
-
-  .property-sec .nav-btn span {
-    font-size: 8px;
-  }
-}
-
-
-
-
-/* 
-===================
-BUILD SECTION
-===================
-*/
-
+/*Build Section Start*/
 .build-sec {
   padding: 180px 0;
   background: rgba(207, 198, 211, 87%);
@@ -558,81 +316,10 @@ BUILD SECTION
 .unique .contact-us span {
   color: white;
 }
+/*Build Section End*/
 
-/* 
-========================
- BUILD SEC MEDIA QUERIES
-========================
-*/
-@media screen and (max-width: 1200px) {
-  /* Build Section */
-  .build-card1,
-  .build-card2 {
-    height: 286px;
-  }
 
-  .build-card2 {
-    padding: 27px;
-  }
-
-  .build-card2 p {
-    font-size: 12px;
-    margin-top: 15px;
-  }
-
-  .build-card2 .contact-us {
-    margin-top: 50px;
-  }
-
-  .build-card2 .title3 {
-    font-size: 17px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .build-sec .title-2 {
-    font-size: 40px;
-  }
-
-  .build-card2 .title-3 {
-    font-size: 28px;
-  }
-
-  .build-card2 p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .build-card1,
-  .build-card2 {
-    margin: 0 auto 20px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .build-sec .title-2 {
-    font-size: 30px;
-  }
-
-  .build-card2 .title-3 {
-    font-size: 20px;
-  }
-
-  .build-card2 p {
-    font-size: 14px;
-  }
-
-  .build-card2 .contact-us {
-    margin-top: 78px;
-  }
-}
-
-/* 
-==================
-TESTIMONIL SEC
-==================
-*/
+/*Testimonial Section Start*/
 .testimonial-section {
   padding: 100px 0;
   position: relative;
@@ -727,111 +414,10 @@ h5 {
   color: #000;
 }
 
-/* 
-==================
-RESPONSIVE TESTIMONIAL
-================== 
-*/
-@media (max-width: 992px) {
-  .testimonial-section {
-    padding: 80px 20px;
-  }
-
-  .avatar-swiper {
-    width: 100%;
-  }
-
-  .testimonial-wrpr {
-    max-width: 100%;
-  }
-
-  .swiper-button-prev {
-    left: 0;
-  }
-
-  .swiper-button-next {
-    right: 0;
-  }
-}
-
-/* Tablet & Mobile */
-@media (max-width: 768px) {
- 
-  .headings h2 {
-    font-size: 24px;
-  }
-
-  .avatar-swiper {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .avatar-swiper img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .avatar-swiper .swiper-slide-active img {
-    width: 75px;
-    height: 75px;
-  }
-
-  .content-swiper {
-    padding: 0 10px;
-  }
-
-  .text {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  h5 {
-    font-size: 15px;
-  }
-
-  .desg {
-    font-size: 12px;
-  }
+/*Testimonial Section End*/
 
 
-  .swiper-button-prev,
-  .swiper-button-next {
-    display: none;
-  }
-}
-
-/* Small Mobile */
-@media (max-width: 480px) {
-  .testimonial-section {
-    padding: 60px 15px;
-    margin-bottom: 30px;
-  }
-
-  .headings h2 {
-    font-size: 20px;
-  }
-
-  .avatar-swiper img {
-    width: 55px;
-    height: 55px;
-  }
-
-  .avatar-swiper .swiper-slide-active img {
-    width: 70px;
-    height: 70px;
-  }
-
-  .text {
-    font-size: 13px;
-  }
-}
-
-
-
-
-/* =====================
-   FOOTER SECTION
-===================== */
+/*Footer Section Start*/
 .footer-sec {
   background: #18212D;
   color: #ffffff;
@@ -872,12 +458,6 @@ RESPONSIVE TESTIMONIAL
   text-decoration: none;
 }
 
-/* 
-=====================
-   FOOTER CONTENT
-=====================
-*/
-
 .footer-content {
   margin-top: 40px;
 }
@@ -910,12 +490,6 @@ RESPONSIVE TESTIMONIAL
   text-decoration: none;
   font-size: 14px;
 }
-
-/* 
-=====================
-   NEWSLETTER 
-===================== 
-*/
 
 .newsletter {
   position: relative;
@@ -989,14 +563,165 @@ RESPONSIVE TESTIMONIAL
   color: #cbd5e1;
 }
 .footer-sec ul li a:hover{
-    color: var(--btn-color);
+  color: var(--btn-color);
+
+}
+/*Footer Section End*/
+
+
+/*Media Queries Start*/
+
+@media (max-width: 1200px) {
+  /*Banner Section*/
+  .banner-cntn .title-1 {
+    font-size: 40px;
+  }
+
+  .banner-cntn .nav-btn {
+    padding: 15px 19px;
+  }
+
+  .banner-pic-wrpr {
+    margin: 28px auto 0;
+  }
+  /*Property Section*/
+  .prop-left-cntn .title-2 {
+    font-size: 45px;
+  }
+  /*Build Section*/
+  .build-card1,
+  .build-card2 {
+    height: 286px;
+  }
+
+  .build-card2 {
+    padding: 27px;
+  }
+
+  .build-card2 p {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .build-card2 .contact-us {
+    margin-top: 50px;
+  }
+
+  .build-card2 .title3 {
+    font-size: 17px;
+  }
 
 }
 
-/*Media Queries*/
-
 @media (max-width: 992px) {
+  /*Navbar*/
+  .navbar-brand {
+    width: 130px;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+    border: none;
+  }
 
+  .offcanvas {
+    flex-direction: column;
+  }
+
+  .offcanvas-header {
+    margin-left: auto;
+  }
+
+  .offcanvas-body {
+    margin: 0 !important;
+  }
+
+  .offcanvas-body ul {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 0 auto !important;
+  }
+
+  .nav-btn {
+    margin-top: 18px;
+  }
+
+  .offcanvas-end:focus .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .navbar-toggler-icon {
+    display: block;
+  }
+  /*Banner Section*/
+  .banner-cntn p {
+    font-size: 12px;
+  }
+
+  .banner-cntn .nav-btn span {
+    font-size: 14px;
+  }
+  /*Property Section*/
+  .prop-left-cntn .title-2 {
+    text-align: center;
+  }
+
+    .prop-left {
+    margin: 40px auto 0;
+  }
+
+  .prop-right {
+    margin: 40px auto;
+  }
+
+  .property-sec p {
+    margin: 0 auto 50px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .property-sec .nav-btn {
+    padding: 15px 25px;
+    margin: 0 auto;
+  }
+  /*Build Section*/
+  .build-sec .title-2 {
+    font-size: 40px;
+  }
+
+  .build-card2 .title-3 {
+    font-size: 28px;
+  }
+
+  .build-card2 p {
+    font-size: 16px;
+  }
+  /*Testimonial Section*/
+  .testimonial-section {
+    padding: 80px 20px;
+  }
+
+  .avatar-swiper {
+    width: 100%;
+  }
+
+  .testimonial-wrpr {
+    max-width: 100%;
+  }
+
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+
+
+  /*Footer Section */
   .footer-top {
     max-width: 720px;
     padding: 28px 30px;
@@ -1021,10 +746,141 @@ RESPONSIVE TESTIMONIAL
     text-align: center;
   }
 }
+@media (max-width:768px){
+  /*Baneer Section*/
+  .banner-cntn .title-1 {
+    font-size: 30px;
+  }
+  .banner-cntn p {
+    margin: 15px auto;
+
+  }
+  .banner-cntn .nav-btn {
+    padding: 11px 15px;
+  }
+  .banner-cntn .nav-btn span {
+    font-size: 10px;
+  }
+
+  /*Property Section*/
+  .prop-left-cntn .title-2 {
+    font-size: 30px;
+  }
+  .prop-left {
+    max-width: 400px;
+  }
+  /*Build Section*/
+  .build-card1,
+  .build-card2 {
+    margin: 0 auto 20px;
+  }
+  /*Testimonial Section*/
+  .headings h2 {
+    font-size: 24px;
+  }
+
+  .avatar-swiper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .avatar-swiper img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .avatar-swiper .swiper-slide-active img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .content-swiper {
+    padding: 0 10px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .desg {
+    font-size: 12px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
+}
 
 
 @media (max-width: 576px) {
+  /*Header Section*/
+  .offcanvas {
+    width: 70%;
+  }
 
+  /*Banner Section*/
+  .banner-cntn .nav-btn span {
+  font-size: 10px;
+}
+
+  .banner-cntn .nav-btn {
+    padding: 8px;
+  }
+
+  .banner-cntn .nav-btn span {
+    font-size: 8px;
+  }
+  /*Property Section*/
+  .prop-left-cntn .title1 {
+    font-size: 20px;
+  }
+
+  .property-sec .nav-btn span {
+    font-size: 12px;
+  }
+
+  .prop-left {
+    margin: 30px auto 0;
+  }
+
+  .prop-right {
+    overflow: hidden;
+  }
+
+  .property-sec p {
+    margin: 0 auto 30px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .property-sec .nav-btn {
+    padding: 8px 12px;
+    margin: 0 auto;
+  }
+  /*Build Section*/
+  .build-sec .title-2 {
+    font-size: 30px;
+  }
+
+  .build-card2 .title-3 {
+    font-size: 20px;
+  }
+
+  .build-card2 p {
+    font-size: 14px;
+  }
+
+  .build-card2 .contact-us {
+    margin-top: 78px;
+  }
+
+  /*Footer Section*/
   .footer-sec {
     padding-top: 160px;
   }
@@ -1059,4 +915,58 @@ RESPONSIVE TESTIMONIAL
   .social-icons a {
     margin: 0 6px;
   }
+  /*Testimonial Section*/
+  .testimonial-section {
+    padding: 60px 15px;
+    margin-bottom: 30px;
+  }
+
+  .headings h2 {
+    font-size: 20px;
+  }
+
+  .avatar-swiper img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .avatar-swiper .swiper-slide-active img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .text {
+    font-size: 13px;
+  }
 }
+
+@media (max-width: 425px) {
+
+  /*Property Section*/
+  .prop-left-cntn .title-2 {
+    font-size: 30px;
+  }
+
+  .prop-left,
+  .prop-right {
+    max-width: 240px;
+  }
+
+  .prop-right {
+    margin: 17px auto;
+  }
+
+  .property-sec p {
+    margin: 0 auto 15px;
+    font-size: 8px;
+  }
+
+  .property-sec .nav-btn span {
+    font-size: 8px;
+  }
+
+}
+@media (max-width: 320px) {
+  
+}
+
